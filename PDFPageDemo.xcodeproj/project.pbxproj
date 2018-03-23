@@ -15,6 +15,9 @@
 		3443B7B720637F97004B89F4 /* PDFPageDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443B7B620637F97004B89F4 /* PDFPageDemoTests.swift */; };
 		3443B7C220637F98004B89F4 /* PDFPageDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3443B7C120637F98004B89F4 /* PDFPageDemoUITests.swift */; };
 		3443B7D02063829F004B89F4 /* Reader.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3443B7CF2063829F004B89F4 /* Reader.pdf */; };
+		348CADB0206500D400C1B674 /* mongodb.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 348CADAF206500D300C1B674 /* mongodb.pdf */; };
+		348CADB22065012B00C1B674 /* javaScript.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 348CADB12065012B00C1B674 /* javaScript.pdf */; };
+		348CADB4206501CA00C1B674 /* apple.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 348CADB3206501CA00C1B674 /* apple.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3443B7C120637F98004B89F4 /* PDFPageDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFPageDemoUITests.swift; sourceTree = "<group>"; };
 		3443B7C320637F98004B89F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3443B7CF2063829F004B89F4 /* Reader.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Reader.pdf; sourceTree = "<group>"; };
+		348CADAF206500D300C1B674 /* mongodb.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = mongodb.pdf; sourceTree = "<group>"; };
+		348CADB12065012B00C1B674 /* javaScript.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = javaScript.pdf; sourceTree = "<group>"; };
+		348CADB3206501CA00C1B674 /* apple.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = apple.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				3443B7AA20637F97004B89F4 /* LaunchScreen.storyboard */,
 				3443B7AD20637F97004B89F4 /* Info.plist */,
 				3443B7CF2063829F004B89F4 /* Reader.pdf */,
+				348CADAF206500D300C1B674 /* mongodb.pdf */,
+				348CADB12065012B00C1B674 /* javaScript.pdf */,
+				348CADB3206501CA00C1B674 /* apple.pdf */,
 			);
 			path = PDFPageDemo;
 			sourceTree = "<group>";
@@ -238,7 +247,10 @@
 				3443B7AC20637F97004B89F4 /* LaunchScreen.storyboard in Resources */,
 				3443B7D02063829F004B89F4 /* Reader.pdf in Resources */,
 				3443B7A920637F97004B89F4 /* Assets.xcassets in Resources */,
+				348CADB22065012B00C1B674 /* javaScript.pdf in Resources */,
+				348CADB0206500D400C1B674 /* mongodb.pdf in Resources */,
 				3443B7A720637F97004B89F4 /* Main.storyboard in Resources */,
+				348CADB4206501CA00C1B674 /* apple.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

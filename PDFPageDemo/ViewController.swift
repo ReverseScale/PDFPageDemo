@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var previousButton: UIBarButtonItem!
     @IBOutlet weak var nextButton: UIBarButtonItem!
     
-    let pdfURL = Bundle.main.url(forResource: "Reader", withExtension: "pdf")
+    let pdfURL = Bundle.main.url(forResource: "mongodb", withExtension: "pdf")
     let animationDuration: TimeInterval = 0.25
     let sidebarBackgroundColor = UIColor(named: "SidebarBackgroundColor")
     let thumbnailDimension = 44
