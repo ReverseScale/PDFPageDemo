@@ -30,10 +30,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         setup()
         addObservers()
     }
+
     
     // MARK: - Setup
     func setup() {
@@ -82,6 +82,12 @@ class ViewController: UIViewController {
     }
     @IBAction func nextTapped(_ sender: Any) {
         pdfView.goToNextPage(sender)
+    }
+    @IBAction func closeTapped(_ sender: Any) {
+//        self.dismiss(animated: true) {
+//
+//        }
+        navigationController?.popViewController(animated: true)
     }
     
     func toggleSidebar() {

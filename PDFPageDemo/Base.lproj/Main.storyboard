@@ -55,6 +55,11 @@
                                     <action selector="resetTapped:" destination="BYZ-38-t0r" id="1vO-b2-Juj"/>
                                 </connections>
                             </barButtonItem>
+                            <barButtonItem image="icon_close" id="Kjq-DW-hMT">
+                                <connections>
+                                    <action selector="closeTapped:" destination="BYZ-38-t0r" id="nAf-oV-jR3"/>
+                                </connections>
+                            </barButtonItem>
                         </leftBarButtonItems>
                         <rightBarButtonItems>
                             <barButtonItem image="icon_next" id="D7v-n0-sOr">
@@ -79,7 +84,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="296.80000000000001" y="341.37931034482762"/>
+            <point key="canvasLocation" x="978" y="134"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gYB-Hk-aKK">
@@ -90,18 +95,48 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Mtw-FU-fw2"/>
+                        <segue destination="ZH2-VF-8Wx" kind="relationship" relationship="rootViewController" id="7aA-pe-gZy"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NxL-Do-UNi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-617" y="134"/>
         </scene>
+        <!--Welcome-->
+        <scene sceneID="Fe6-pm-hzA">
+            <objects>
+                <viewController id="ZH2-VF-8Wx" customClass="RootViewController" customModule="PDFPageDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0Td-Kw-UiV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zzb-z3-rI1">
+                                <rect key="frame" x="133" y="318" width="108" height="30"/>
+                                <state key="normal" title="Open PDF Page"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="push" id="OBr-VX-b1c"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Zzb-z3-rI1" firstAttribute="centerY" secondItem="0Td-Kw-UiV" secondAttribute="centerY" id="1rL-vV-Y6Y"/>
+                            <constraint firstItem="Zzb-z3-rI1" firstAttribute="centerX" secondItem="0Td-Kw-UiV" secondAttribute="centerX" id="sBI-R2-OKq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gUV-un-cDH"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Welcome" id="FGP-K5-2H1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Hp-gZ-vnB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="166" y="134"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="icon_next" width="22" height="22"/>
-        <image name="icon_prev" width="22" height="22"/>
-        <image name="icon_reset" width="22" height="22"/>
+        <image name="icon_close" width="20" height="20"/>
+        <image name="icon_next" width="20" height="20"/>
+        <image name="icon_prev" width="20" height="20"/>
+        <image name="icon_reset" width="18" height="18"/>
         <image name="icon_sidebar" width="22" height="22"/>
     </resources>
 </document>
