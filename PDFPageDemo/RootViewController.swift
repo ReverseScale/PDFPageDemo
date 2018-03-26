@@ -15,11 +15,6 @@ class RootViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-//    @IBAction func goPDFPage(_ sender: Any) {
-//        let navi = UINavigationController.init(rootViewController: ViewController())
-//        present(navi, animated: true, completion: nil)
-//    }
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

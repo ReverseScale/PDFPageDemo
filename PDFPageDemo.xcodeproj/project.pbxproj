@@ -114,10 +114,7 @@
 				3443B7A820637F97004B89F4 /* Assets.xcassets */,
 				3443B7AA20637F97004B89F4 /* LaunchScreen.storyboard */,
 				3443B7AD20637F97004B89F4 /* Info.plist */,
-				3443B7CF2063829F004B89F4 /* Reader.pdf */,
-				348CADAF206500D300C1B674 /* mongodb.pdf */,
-				348CADB12065012B00C1B674 /* javaScript.pdf */,
-				348CADB3206501CA00C1B674 /* apple.pdf */,
+				348CADB7206885E100C1B674 /* Resources */,
 			);
 			path = PDFPageDemo;
 			sourceTree = "<group>";
@@ -138,6 +135,17 @@
 				3443B7C320637F98004B89F4 /* Info.plist */,
 			);
 			path = PDFPageDemoUITests;
+			sourceTree = "<group>";
+		};
+		348CADB7206885E100C1B674 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3443B7CF2063829F004B89F4 /* Reader.pdf */,
+				348CADAF206500D300C1B674 /* mongodb.pdf */,
+				348CADB12065012B00C1B674 /* javaScript.pdf */,
+				348CADB3206501CA00C1B674 /* apple.pdf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

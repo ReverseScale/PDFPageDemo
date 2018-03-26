@@ -84,9 +84,6 @@ class ViewController: UIViewController {
         pdfView.goToNextPage(sender)
     }
     @IBAction func closeTapped(_ sender: Any) {
-//        self.dismiss(animated: true) {
-//
-//        }
         navigationController?.popViewController(animated: true)
     }
     
