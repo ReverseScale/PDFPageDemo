@@ -32,13 +32,14 @@ import PDFKit
 ### Core code
 
 ```Swift
+// Declare the control
 @IBOutlet weak var pdfView: PDFView!
-
+// Load resources
 let pdfURL = Bundle.main.url(forResource: "mongodb", withExtension: "pdf")
 guard let url = pdfURL else { return }
 let document = PDFDocument(url: url)
 pdfView.document = document
-
+// Set index view
 pdfThumbnailView.pdfView = pdfView
 pdfThumbnailView.thumbnailSize = CGSize(width: thumbnailDimension, height: thumbnailDimension)
 pdfThumbnailView.backgroundColor = sidebarBackgroundColor
@@ -112,13 +113,14 @@ import PDFKit
 
 ### 核心代码
 ```Swift
+// 声明控件
 @IBOutlet weak var pdfView: PDFView!
-
+// 加载资源
 let pdfURL = Bundle.main.url(forResource: "mongodb", withExtension: "pdf")
 guard let url = pdfURL else { return }
 let document = PDFDocument(url: url)
 pdfView.document = document
-
+// 设置索引视图
 pdfThumbnailView.pdfView = pdfView
 pdfThumbnailView.thumbnailSize = CGSize(width: thumbnailDimension, height: thumbnailDimension)
 pdfThumbnailView.backgroundColor = sidebarBackgroundColor
