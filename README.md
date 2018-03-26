@@ -17,22 +17,33 @@
 |1.Show Page |2.Show Page |3.Show Page |
 | ------------- | ------------- | ------------- |
 | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-26/58190006.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-26/31414404.jpg) | ![](http://og1yl0w9z.bkt.clouddn.com/18-3-26/64177338.jpg) | 
-| Before the input style | Writing style of keyboard | Keyboard style expression package | 
+| Expand Zoom Index | Hide Zoom Index | Zoom in |
 
 ### 🎯 Installation
 
 #### Install
 
-## 🛠 Configuration
+```Swift
+import PDFKit
+```
 
-#### Setup
+## 🛠 Used
 
-#### Detached Input
+### Core code
 
-#### Input Size Changes
-##### Substitue Text
-##### Height Caching
-##### Table Cells
+```Swift
+@IBOutlet weak var pdfView: PDFView!
+
+let pdfURL = Bundle.main.url(forResource: "mongodb", withExtension: "pdf")
+guard let url = pdfURL else { return }
+let document = PDFDocument(url: url)
+pdfView.document = document
+
+pdfThumbnailView.pdfView = pdfView
+pdfThumbnailView.thumbnailSize = CGSize(width: thumbnailDimension, height: thumbnailDimension)
+pdfThumbnailView.backgroundColor = sidebarBackgroundColor
+```
+
 
 ## 📝 App Submission
 
@@ -97,12 +108,21 @@ SOFTWARE.
 import PDFKit
 ```
 
-## 🛠 配置
+## 🛠 使用
 
-#### 设置
+### 核心代码
+```Swift
+@IBOutlet weak var pdfView: PDFView!
 
+let pdfURL = Bundle.main.url(forResource: "mongodb", withExtension: "pdf")
+guard let url = pdfURL else { return }
+let document = PDFDocument(url: url)
+pdfView.document = document
 
-## 📝  应用程序提交
+pdfThumbnailView.pdfView = pdfView
+pdfThumbnailView.thumbnailSize = CGSize(width: thumbnailDimension, height: thumbnailDimension)
+pdfThumbnailView.backgroundColor = sidebarBackgroundColor
+```
 
 ## ⚖ 协议
 
