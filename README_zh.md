@@ -1,12 +1,12 @@
 [EN](https://github.com/ReverseScale/PDFPageDemo) | [中文](https://github.com/ReverseScale/PDFPageDemo/blob/master/README_zh.md)
 
-## 🤖 要求
+### 🤖 要求
 
 * iOS 9.0+
 * Xcode 9.0+
 * Swift
 
-## 🎨 测试 UI 什么样子？
+### 🎨 测试 UI 什么样子？
 
 |1.展示页 |2.展示页 |3.展示页 |
 | ------------- | ------------- | ------------- | 
@@ -20,9 +20,9 @@
 import PDFKit
 ```
 
-## 🛠 使用
+### 🛠 使用
 
-### 核心代码
+#### 核心代码
 ```Swift
 // 声明控件
 @IBOutlet weak var pdfView: PDFView!
@@ -37,7 +37,7 @@ pdfThumbnailView.thumbnailSize = CGSize(width: thumbnailDimension, height: thumb
 pdfThumbnailView.backgroundColor = sidebarBackgroundColor
 ```
 
-## 😬  联系
+### 😬  联系
 
 * 微信 : WhatsXie
 * 邮件 : ReverseScale@iCloud.com
