@@ -4,13 +4,13 @@
 
 [EN](https://github.com/ReverseScale/PDFPageDemo) | [中文](https://github.com/ReverseScale/PDFPageDemo/blob/master/README_zh.md)
 
-## 🤖 Requirements
+### 🤖 Requirements
 
 * iOS 9.0+
 * Xcode 9.0+
 * Swift
 
-## 🎨 Why test the UI?
+### 🎨 Why test the UI?
 
 |1.Show Page |2.Show Page |3.Show Page |
 | ------------- | ------------- | ------------- |
@@ -25,9 +25,9 @@
 import PDFKit
 ```
 
-## 🛠 Used
+### 🛠 Used
 
-### Core code
+#### Core code
 
 ```Swift
 // Declare the control
@@ -43,7 +43,7 @@ pdfThumbnailView.thumbnailSize = CGSize(width: thumbnailDimension, height: thumb
 pdfThumbnailView.backgroundColor = sidebarBackgroundColor
 ```
 
-## 😬 Contributions
+### 😬 Contributions
 
 * WeChat : WhatsXie
 * Email : ReverseScale@iCloud.com
